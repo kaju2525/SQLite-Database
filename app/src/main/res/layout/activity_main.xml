@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/roll"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Roll No"
+       android:inputType="number"
+       />
+<EditText
+       android:id="@+id/name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter name"
+       />
+<EditText
+       android:id="@+id/age"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Age"
+       />
+<EditText
+       android:id="@+id/mob"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter mobile"
+       />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:text="Submit"
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Delete"
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Update"
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Search"
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
